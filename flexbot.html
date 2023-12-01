@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explor Flexbox</title>
+    <style>
+         .container{
+            border: 2px solid blue;
+            display: flex;
+            height: 300px;
+            /* justify-content: center;
+       
+            align-items: center; */
+        }
+        .box{
+            font-size: 3ex;
+            font-weight: 700;
+            border: 3px dashed purple;
+            /* height: 200px; */
+            width: 200px;
+        }
+       #box-2{
+        flex-grow: 1;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box-1</div>
+        <div class="box" id="box-2">Box-2</div>
+        <!-- <div class="box">Box-3</div>
+        <div class="box">Box-4</div>
+    </div> -->
+</body>
+</html>

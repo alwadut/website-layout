@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form </title>
+    <script src="https://kit.fontawesome.com/d18ec776c0.js" crossorigin="anonymous"></script>
+    <style>
+        nav a{
+            text-decoration: none;
+            margin: 10px;
+
+
+        }
+        nav{
+            display: flex;
+            justify-content:space-between;
+        }
+
+        .login {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+
+        }
+
+        .Login-form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            /* gap: 10px; */
+        }
+
+        .Login-form input {
+            margin-top: 20px;
+            font-size: 2em;
+            border: 2px solid gainsboro;
+            border-radius: 5px;
+
+        }
+
+        .Login-form input[type="submit"] {
+            color: aliceblue;
+            background-color: rgb(240, 124, 8);
+            border: 2px solid gainsboro;
+            /* border-radius: 5px; */
+            font-weight: 700;
+
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+           <span>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contract</a>
+           </span>
+          
+           <span>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+       
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <a href=""></a>
+           </span>
+        </nav>
+    </header>
+    <section class="login">
+
+        <form class="Login-form">
+            <h2>Please login </h2>
+            <input type="email" name="email" id="" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" id="">
+            <input type="submit" value="Login">
+        </form>
+
+    </section>
+
+</body>
+
+</html>
