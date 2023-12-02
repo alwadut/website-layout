@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            max-width: 980px;
+            margin: 0 auto;
+            border: 2px solid gray;
+        }
+        section{
+            font-size: 5vw;
+        }
+        .tiger img{
+            width: 100%;
+        }
+        .container-two{
+            display: flex;
+
+        }
+        .container-two .spilt {
+            width: 50%;
+        }
+        .spilt img{
+            width: 100%;
+
+        }
+        @media screen and (max-width: 576px) {
+            .container-two {
+                flex-direction: column;
+            }
+            .container-two .spilt {
+            width: 100%;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>My Responsive Website</h1>
+    </section>
+    <section class="tiger">
+        <h3>Tiger</h3>
+        <img src="/images/Walking_tiger_female.jpg" alt="tiger">
+
+    </section>
+    <section>
+        <div class="container-two">
+            <div class="spilt">
+                <img src="/images/messi.webp" alt="">
+            </div>
+            <div class="spilt">
+                <img src="/images/Walking_tiger_female.jpg" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
